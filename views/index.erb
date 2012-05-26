@@ -1,0 +1,6 @@
+<h1>Drugs</h1>
+
+<% @drugs.each do |drug| %>
+  <h1><%= drug[:name] %></h1>
+  <%= drug[:dose] %>
+<% end %>
